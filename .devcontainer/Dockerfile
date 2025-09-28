@@ -6,7 +6,12 @@ RUN apt-get update && apt-get install -y \
     wget \
     curl \
     wget \
-    vim
+    vim \
+    ninja-build \
+    cmake \
+    checkinstall \
+    zlib1g-dev\
+    libssl-dev
 
 WORKDIR /workspace
 
